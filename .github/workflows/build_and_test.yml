@@ -3,7 +3,7 @@ name: Build and Test
 on:
   push:
     branches:
-      - main # Specify the branch you want to trigger the workflow on
+      - main # Specify the branch to trigger the workflow on
 
 jobs:
   build_and_test:
