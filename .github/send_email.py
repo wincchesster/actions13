@@ -15,7 +15,7 @@ def send_email():
 
     # Log in to your Gmail account
     gmail_user = "wincchesster@gmail.com"
-    gmail_password = os.environ("GMAIL_PASSWORD")  # Use the GitHub Secret name for your Gmail password
+    gmail_password = os.environ["GMAIL_PASSWORD"]  # Use the GitHub Secret name for your Gmail password
     print("Username:", gmail_user)
     print("Password:", gmail_password)
     server.login(gmail_user, gmail_password)
