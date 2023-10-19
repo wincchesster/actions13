@@ -33,4 +33,6 @@ jobs:
       run: |
         echo "Tests failed! Sending notification..."
         python .github/send_email.py
+      env:
+        GMAIL_PASSWORD: ${{ secrets.GMAIL_PASSWORD }}
 
